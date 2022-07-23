@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link rel="stylesheet" href="li.css" />
+  </head>
+  <body class="flex min-w-[250px] items-center justify-center">
+    <div class="mt-3 px-4 flex flex-col min-w-[250px] items-center">
+      <input
+        type="text"
+        id="input-el"
+        class="min-w-[250px] mb-2 px-2 py-1 max-w-md focus:outline-none focus:bg-amber-200/50 rounded-sm"
+      />
+      <label for="input-el" class="hidden">no va</label>
+
+      <button
+        type="button"
+        id="input-btn"
+        class="text-white text-center justify-center items-center min-w-[450px] font-semibold py-1 px-10 rounded bg-gradient-to-r from-yellow-500 to-red-600/90 hover:from-yellow-500/95 duration-200 hover:to-red-500/95"
+      >
+        Save Input
+      </button>
+      <button
+        type="button"
+        id="save-tab"
+        class="text-white text-center justify-center items-center min-w-[450px] font-semibold py-1 px-10 rounded bg-gradient-to-r from-yellow-500 to-red-600/90 hover:from-yellow-500/95 duration-200 hover:to-red-500/95 mt-2 w-full"
+      >
+        Save Current Tab
+      </button>
+      <button
+        type="button"
+        id="delete"
+        class="px-10 py-1 rounded mt-2 font-semibold"
+      >
+        Delete all
+      </button>
+
+      <ul
+        id="ul-El"
+        class="max-w-[450px] gap-2 mt-3 text-slate-600 min-w-[250px]"
+      ></ul>
+    </div>
+
+    <script src="functions.js"></script>
+  </body>
+</html>
