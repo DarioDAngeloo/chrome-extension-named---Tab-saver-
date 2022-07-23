@@ -2,8 +2,8 @@
  
  I made it with: 
  
- -const
- -addEventListener()
+ - const
+ - addEventListener()
  - innetHTML
  - input.value
  - function parameters 
